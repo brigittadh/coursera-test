@@ -1,35 +1,61 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #61122f;
+  background-color: white;
   font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav{
-  background-color: #f6b319;
+  background-color: gray;
   border-radius: 0;
   border: 0;
+  border: 2px solid black;
 }
 
-/*.navbar-brand {
-  padding-top: 25px;
-  margin-left: 3px;
-  padding-bottom: 0.2px;
-  
-}
-
-.navbar-brand h1 { 
+ h1 { 
   font-family: comic sans ms;
   color: black;
   font-size: 1.5em;
   font-weight: bold;
-  margin: 10px 15px 50px 10px;
-  border-bottom: 10px;
-  line-height: 1;
-  
+  margin: 10px 15px 20px 10px;
 
+  
+#main-content h1 {
+  color:black;
+  text-align: center;
+  background-color: green;
 }
-.navbar-brand a:hover, .navbar-brand a:focus {
-  text-decoration: none;
+
+h2{
+  color:black;
+  text-align: center;
 }
+
+.box{
+  background-color: gray;
+}
+
+.row {
+  width: 100%;
+ }
+
+
+ /********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container h1 {
+    height: 675px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+ 
+}
+
