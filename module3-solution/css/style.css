@@ -11,14 +11,16 @@ body {
   border-radius: 0;
   border: 0;
   border: 2px solid black;
+
 }
 
-nav h1 { 
-  font-family: "comic sans ms";
-  color: black;
-  font-size: 1.5em;
+.text-left { 
   font-weight: bold;
-  margin: 10px 15px 20px 10px;
+  margin-left: 25px
+
+}
+.text-center{
+  font-weight: bold;
 }
 
 h3 {
@@ -36,18 +38,18 @@ h3 {
 
 #nav-list {
   margin-top: 1px;
+  margin-bottom: 1px;
 }
 
 #nav-list a {
-  color: #951C49;
+  color: black;
   text-align: center;
+ /* border:0.5px solid black;*/
 }
 
  /********** Large devices only **********/
 @media (min-width: 1200px) {
-  .container h1 {
-    height: 675px;
-  }
+
 }
 
 /********** Medium devices only **********/
